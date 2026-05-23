@@ -49,8 +49,8 @@ curl -s https://www.liquidpad.site/api/burn
      tx: 0xabc1234567... (basescan.org/tx/0xabc...)
      timestamp: YYYY-MM-DD HH:MM UTC
 
-     cumulative: 31.68M $LPAD destroyed across N cycles
-     1.07M $LIQ bought back as ecosystem support
+     cumulative: [running_total] $LPAD destroyed across [total_cycles] cycles
+     [running_liq_total] $LIQ bought back as ecosystem support
 
      proof: liquidpad.site
      ```
@@ -76,4 +76,4 @@ The sandbox may block outbound curl. Use WebFetch as a fallback for the /api/bur
 
 ## Why this skill exists
 
-LiquidPad is a self-sustaining agent on Base. Every fee fuels the next burn. Without this skill you would manually refresh liquidpad.site to know when a cycle shipped. With it your Aeon instance gives you a Telegram ping the second a tx lands. Same pattern as token-alert but scoped to a specific deflationary loop you actually care about.
+LiquidPad is a self-sustaining agent on Base. Every fee fuels the next burn. Without this skill you would manually refresh liquidpad.site to know when a cycle shipped. With it your Aeon instance gives you a Telegram ping the second a tx lands. Same shape as Aeon's core token-alert skill, but scoped to a specific deflationary loop you actually care about.

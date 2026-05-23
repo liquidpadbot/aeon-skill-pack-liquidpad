@@ -52,7 +52,7 @@ curl -s https://www.liquidpad.site/api/token-stats
    deployed: YYYY-MM-DD HH:MM UTC
    kind: user / platform
 
-   market: price $X · MC $X · 24h vol $X
+   market: price $0.0001 · MC $50K · 24h vol $5K
    page: liquidpad.site/t/0xADDRESS
    verify: liquidpad.site/api/verify/0xADDRESS
    ERC-8004: agent #50962

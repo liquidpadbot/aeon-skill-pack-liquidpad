@@ -14,6 +14,18 @@ In your Aeon repo:
 
 This downloads the pack, runs Aeon's security scanner against each `SKILL.md`, copies skills into your `skills/` folder, and adds disabled entries to `aeon.yml`. Toggle them on from the Aeon dashboard.
 
+### Verify install
+
+Right after install, confirm the pack registered correctly:
+
+```bash
+grep liquidpad aeon.yml      # 4 entries, all enabled: false
+ls skills/liquidpad-*         # 4 directories
+cat skills.lock               # pack: LiquidPad provenance row
+```
+
+Run any single skill manually with `./aeon` once before scheduling — easiest sanity check that `/api/burn` and friends are reachable from your Actions sandbox.
+
 ## Skills
 
 | Slug | Schedule | Category | What it does |
@@ -49,7 +61,7 @@ LiquidPad self-deploys to several surfaces (Telegram bot, CLI, MCP server, X bot
 
 ## Compatible with
 
-- Aeon `>= 0.x` (any version that supports `install-skill-pack` + `skills-pack.json` manifest)
+- Aeon (any version with `install-skill-pack` + `skills-pack.json` manifest support)
 - Aeon's notification backends: Telegram, Discord, Slack, Email
 - Aeon's MCP server / A2A gateway — these skills work the same when called from Claude Desktop, Claude Code, LangChain, AutoGen, CrewAI, OpenAI Agents SDK
 

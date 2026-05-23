@@ -1,2 +1,10 @@
-.validate.mjs
-PUBLISH-GUIDE.md
+# Editor + OS scratch files
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Test artifacts
+node_modules/
+.test-output/

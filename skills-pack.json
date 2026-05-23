@@ -2,7 +2,7 @@
   "name": "LiquidPad",
   "version": "0.1.0",
   "description": "Monitor LiquidPad token launches, $LPAD burn cycles, and Liquid Protocol ecosystem activity from Aeon.",
-  "author": "liquidpad",
+  "author": "liquidpadbot",
   "license": "MIT",
   "homepage": "https://www.liquidpad.site",
   "skills": [

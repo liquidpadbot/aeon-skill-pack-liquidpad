@@ -11,7 +11,7 @@ tags: [crypto, liquidpad, base]
 
 Every token launched through LiquidPad routes 80% of trading fees to the deployer. Fees accrue inside Liquid Protocol's FeeLocker (permanent, locked LP) and need to be claimed to land in the deployer's wallet — they don't auto-stream.
 
-This skill pulls the LiquidPad token roster, queries Geckoterminal-derived volume, and surfaces the 10 tokens with the most claimable fees right now. Useful if you're a deployer (wake-up call to claim) or an observer (sees who's actually earning).
+This skill pulls the LiquidPad token roster (already enriched with live USD volume by /api/token-stats), and surfaces the 10 tokens with the most claimable fees right now. Useful if you're a deployer (wake-up call to claim) or an observer (sees who's actually earning).
 
 ## Endpoint used
 

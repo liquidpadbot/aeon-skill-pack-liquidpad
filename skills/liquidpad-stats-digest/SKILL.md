@@ -36,18 +36,20 @@ curl -s https://www.liquidpad.site/api/stats
    ```
    LiquidPad daily digest — YYYY-MM-DD
 
-   tokens deployed: X total (last7d this week, vs prior7d prior — change7dPct)
-   24h aggregate volume: $X.XK across liveTokens live tokens
+   tokens deployed: 189 total (139 this week, vs 50 prior — +178%)
+   24h aggregate volume: $6.7K across 12 live tokens
 
    top by 24h vol:
      1. NAME ($SYMBOL) · $X.XK vol · liquidpad.site/t/0x...
      2. ...
 
-   first deploy: firstDeployAt
-   latest: lastDeployAt
+   first deploy: 2026-04-15
+   latest: 2026-05-23
 
    protocol page: liquidpad.site/stats
    ```
+
+   (Numbers above are illustrative — your skill output will reflect the live response from /api/stats.)
 
 4. Send via ./notify.
 
