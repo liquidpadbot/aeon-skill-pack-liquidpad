@@ -1,0 +1,42 @@
+{
+  "name": "LiquidPad",
+  "version": "0.1.0",
+  "description": "Monitor LiquidPad token launches, $LPAD burn cycles, and Liquid Protocol ecosystem activity from Aeon.",
+  "author": "liquidpad",
+  "license": "MIT",
+  "homepage": "https://www.liquidpad.site",
+  "skills": [
+    {
+      "slug": "liquidpad-burn-monitor",
+      "path": "skills/liquidpad-burn-monitor",
+      "description": "Track $LPAD buyback & burn cycles. Alert when a new cycle ships.",
+      "category": "crypto",
+      "schedule": "0 */6 * * *",
+      "default_enabled": false
+    },
+    {
+      "slug": "liquidpad-stats-digest",
+      "path": "skills/liquidpad-stats-digest",
+      "description": "Daily LiquidPad protocol digest — tokens deployed, momentum, top by 24h volume.",
+      "category": "crypto",
+      "schedule": "0 14 * * *",
+      "default_enabled": false
+    },
+    {
+      "slug": "liquidpad-token-alert",
+      "path": "skills/liquidpad-token-alert",
+      "description": "Notify when a new token launches through LiquidPad and verify on-chain provenance via /api/verify.",
+      "category": "crypto",
+      "schedule": "*/30 * * * *",
+      "default_enabled": false
+    },
+    {
+      "slug": "liquidpad-fee-tracker",
+      "path": "skills/liquidpad-fee-tracker",
+      "description": "Track claimable trading fees on every LiquidPad-launched token. Surface top earners.",
+      "category": "crypto",
+      "schedule": "0 8 * * *",
+      "default_enabled": false
+    }
+  ]
+}
