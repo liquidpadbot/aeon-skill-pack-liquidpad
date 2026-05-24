@@ -1,8 +1,19 @@
 # aeon-skill-pack-liquidpad
 
-Aeon skill pack that exposes [LiquidPad](https://www.liquidpad.site) as a set of installable skills. Track $LPAD burn cycles, get pinged on every new token launch, audit claimable fees, pull a daily protocol digest — all from your Aeon dashboard.
+Aeon skill pack for monitoring [LiquidPad](https://www.liquidpad.site) — an independent, MIT-licensed launchpad on Base built on [Liquid Protocol](https://github.com/Liquid-Protocol-Ops)'s open-source primitives.
 
-LiquidPad is an independent third-party project built on [Liquid Protocol](https://github.com/Liquid-Protocol-Ops)'s open-source primitives. Not affiliated with Liquid Protocol. Full attribution at [liquidpad.site/built-on-liquid](https://www.liquidpad.site/built-on-liquid).
+## Quick view
+
+| You'll get | When | From |
+|---|---|---|
+| 🔥 Burn alert | new `$LPAD` buyback & burn cycle | `/api/burn` (every 6h) |
+| 🚀 New token alert | every LiquidPad-deployed token, with on-chain provenance verified | `/api/token-stats` + `/api/verify` (every 30m) |
+| 📊 Daily digest | tokens deployed, weekly momentum, top by 24h volume | `/api/stats` (daily 14:00 UTC) |
+| 💰 Fee tracker | estimated claimable trading fees on every launched token | `/api/token-stats` (daily 08:00 UTC) |
+
+All four skills run on **public, CORS-enabled, no-auth** endpoints — no API keys to provision, no rate-limit tokens to rotate.
+
+> Independent third-party project. **Not affiliated with Liquid Protocol.** Full attribution at [liquidpad.site/built-on-liquid](https://www.liquidpad.site/built-on-liquid).
 
 ## Install
 
