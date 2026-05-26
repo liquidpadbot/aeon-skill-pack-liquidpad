@@ -14,6 +14,8 @@ Aeon skill pack for monitoring [LiquidPad](https://www.liquidpad.site) — an in
 All four skills run on **public, CORS-enabled, no-auth** endpoints — no API keys to provision, no rate-limit tokens to rotate.
 
 > Independent third-party project. **Not affiliated with Liquid Protocol.** Full attribution at [liquidpad.site/built-on-liquid](https://www.liquidpad.site/built-on-liquid).
+>
+> Listed in aeon framework's [community-packs](https://github.com/aaronjmars/aeon/blob/main/community-packs.md) and [ECOSYSTEM.md](https://github.com/aaronjmars/aeon/blob/main/ECOSYSTEM.md).
 
 ## Install
 
