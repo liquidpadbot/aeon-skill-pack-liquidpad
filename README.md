@@ -15,7 +15,7 @@ All four skills run on **public, CORS-enabled, no-auth** endpoints — no API ke
 
 > Independent third-party project. **Not affiliated with Liquid Protocol.** Full attribution at [liquidpad.site/built-on-liquid](https://www.liquidpad.site/built-on-liquid).
 >
-> Listed in aeon framework's [community-packs](https://github.com/aaronjmars/aeon/blob/main/community-packs.md) and [ECOSYSTEM.md](https://github.com/aaronjmars/aeon/blob/main/ECOSYSTEM.md).
+> Listed in aeon framework's [skill-packs.json](https://github.com/aaronjmars/aeon/blob/main/skill-packs.json) and [ECOSYSTEM.md](https://github.com/aaronjmars/aeon/blob/main/ECOSYSTEM.md).
 
 ## Install
 
